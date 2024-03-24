@@ -1,0 +1,10 @@
+.custombutton {
+    padding: 8px 16px;
+   
+    border-radius: 2rem;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    color: white;
+    transition: background-color 0.3s ease-in-out; /* Specify the transition effect */
+  
+}
+   

@@ -1,0 +1,52 @@
+
+.type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 80vh;
+    margin-top: 0rem;
+}
+.profile{
+    width: 40vw;
+    height: 40v;
+}
+.maindiv{
+    display: flex;
+}
+.typetwo{
+    border: 2px solid black;
+    margin-top: -10rem;
+}
+.sticky{
+}
+@media only screen and (max-width: 600px) {
+
+.type{
+    width: 50vw;
+    height: 40vh;
+}
+.profile{
+    margin-top: 3rem;
+}
+.sticky{
+    margin-top: -2rem;
+    width: 90vw;
+}
+}
+  
+  @media only screen and (max-width: 850px) {
+    .profile{
+        margin-top: 5rem;
+    }
+  }
+/*   
+  @media only screen and (max-width: 1024px) {
+    .type{
+        margin-top: -5rem;
+    }
+    .profile{
+        margin-top: 10rem;
+    }
+}
+   */
