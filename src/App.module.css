@@ -50,3 +50,44 @@
     }
 }
    */
+/* Ensure the button container centers the button */
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 20px; /* Adjust spacing */
+  }
+  
+  /* Style the download button */
+  .downloadButton {
+    display: flex; /* Align icon and text in a row */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Center items within button */
+    gap: 10px; /* Space between icon and text */
+    background-color: #007bff; 
+    border: 2px solid transparent;
+    color: white; 
+    padding: 12px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect */
+  .downloadButton:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+  }
+  
+  /* Active effect */
+  .downloadButton:active {
+    transform: scale(0.98); 
+  }
+  
+  /* Adjust the icon size */
+  .icon {
+    font-size: 18px;
+  }
+  
